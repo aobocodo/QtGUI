@@ -1,6 +1,0 @@
-#include "btn1.h"
-
-mytoolbutton::mytoolbutton(QObject *parent) : QObject(parent)
-{
-
-}
