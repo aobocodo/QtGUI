@@ -13,13 +13,13 @@ public:
 
 signals:
     void Btn_Enter();
-    void Btn_Left();
+
 
 public slots:
 
 protected:
     void enterEvent(QEvent *);
-    void leaveEvent(QEvent *);
+
 };
 
 #endif // MYTOOLBUTTON_H

@@ -29,8 +29,6 @@ SOURCES += \
         widget.cpp \
     btn.cpp \
     wid.cpp \
-    btnone.cpp \
-    widone.cpp \
     showform.cpp \
     mythread.cpp \
     myserver.cpp
@@ -39,8 +37,6 @@ HEADERS += \
         widget.h \
     btn.h \
     wid.h \
-    btnone.h \
-    widone.h \
     showform.h \
     mythread.h \
     myserver.h

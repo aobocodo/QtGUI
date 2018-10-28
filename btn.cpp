@@ -14,8 +14,4 @@ void btn::enterEvent(QEvent *)
     emit Btn_Enter();
 }
 
-void btn::leaveEvent(QEvent *)
-{
 
-    emit Btn_Left();
-}

@@ -8,11 +8,11 @@ class wid : public QWidget
     Q_OBJECT
 public:
     explicit wid(QWidget *parent = nullptr);
-    void enterEvent(QEvent *);
+
     void leaveEvent(QEvent *);
 
 signals:
-    void Wid_Enter();
+
     void Wid_Left();
 
 public slots:

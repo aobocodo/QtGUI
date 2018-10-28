@@ -5,7 +5,6 @@
 #include "myserver.h"
 
 class btn;
-class btnone;
 
 
 namespace Ui {
@@ -19,7 +18,6 @@ class Widget : public QWidget
 public:
     explicit Widget( QWidget *parent = 0);
     btn *btn_zero;
-    btnone *btn_one;
 
     MyServer * server;
 
@@ -28,19 +26,14 @@ public:
 
 private slots:
     void Btn_enter();
-    void Btn_left( );
-    void Wid_enter();
+
+
     void Wid_left();
-    void Btn_one_enter();
-    void Btn_one_left();
-    void Wid_one_enter();
-    void Wid_one_left();
+
 
     void on_menu_btn_clicked();
 
-    void on_tabWidget_tabCloseRequested(int index);
 
-    void on_menu_one_btn_clicked();
 
     void display_text(QString ch);
 

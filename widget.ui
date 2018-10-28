@@ -35,19 +35,6 @@
      <string>...</string>
     </property>
    </widget>
-   <widget class="QToolButton" name="menu_one_btn">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>0</y>
-      <width>26</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QWidget" name="bottom_widget" native="true">
    <property name="geometry">
@@ -99,19 +86,6 @@ p, li { white-space: pre-wrap; }
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="widone" name="menu_one_widget" native="true">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>80</y>
-     <width>80</width>
-     <height>380</height>
-    </rect>
-   </property>
-   <property name="mouseTracking">
-    <bool>true</bool>
-   </property>
-  </widget>
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
@@ -125,7 +99,7 @@ p, li { white-space: pre-wrap; }
     <enum>QTabWidget::North</enum>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>0</number>
    </property>
    <property name="tabsClosable">
     <bool>false</bool>
@@ -180,7 +154,6 @@ p, li { white-space: pre-wrap; }
   <zorder>bottom_widget</zorder>
   <zorder>btn_widget</zorder>
   <zorder>menu_widget</zorder>
-  <zorder>menu_one_widget</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
@@ -188,12 +161,6 @@ p, li { white-space: pre-wrap; }
    <class>wid</class>
    <extends>QWidget</extends>
    <header location="global">wid.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>widone</class>
-   <extends>QWidget</extends>
-   <header location="global">widone.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
