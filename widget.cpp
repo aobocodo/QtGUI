@@ -12,15 +12,19 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
+    this->setWindowTitle("SON演示平台服务器");
 
     //socket server initiate
     server = new MyServer(this);
     server->StartServer();
 
     QPalette palette;
-    palette.setColor(QPalette::Background, QColor(66,106,179));
+    palette.setColor(QPalette::Background, QColor(51,150,230));
     ui->top_widget->setAutoFillBackground(true);
     ui->top_widget->setPalette(palette);
+
+
+
 
     btn_zero = new btn();
     btn_zero->setGeometry(0,0,80,95);
@@ -37,6 +41,8 @@ Widget::Widget(QWidget *parent) :
 
     QPalette palette1;
     palette1.setColor(QPalette::Background, QColor(209,199,183));
+    ui->bottom_widget->setAutoFillBackground(true);
+    ui->bottom_widget->setPalette(palette1);
     ui->menu_widget->setAutoFillBackground(true);
     ui->menu_widget->setPalette(palette1);
 
